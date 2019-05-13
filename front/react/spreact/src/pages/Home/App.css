@@ -1,0 +1,66 @@
+.body
+{
+    background: pink;
+    margin: 0;
+    padding: 0;
+
+}
+.box h1{
+    color: #43a3c9;
+    font-weight: 500;
+    text-shadow: 1px 1px 0 darkslategrey;
+}
+.box h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(65, 65, 65);
+    /* background-image: url(../) */
+}
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #eaeaea;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid darkslategrey;
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 12px;
+    transition: 0.25s;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px 100px;
+    /* width: 200px; */
+    outline: none;
+    color: black;
+    border-radius: 30px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    width: 250px;
+    border-color: grey;
+}
+.box input[type = "submit"]:hover{
+    background: linear-gradient(to right, green, lightgreen )
+}
