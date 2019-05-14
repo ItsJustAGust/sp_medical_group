@@ -22,7 +22,7 @@ class Login extends Component {
 
   atualizaEstadoSenha(event) {
     this.setState({ senha: event.target.value });
-  }
+  } 
 
   efetuaLogin(event) {
     event.preventDefault();
@@ -88,4 +88,4 @@ class Login extends Component {
     );
   }
 }
-export default App;
+export default Login;
